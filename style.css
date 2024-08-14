@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+}
+
+.button {
+    border: 1px solid #000;
+    background-color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
